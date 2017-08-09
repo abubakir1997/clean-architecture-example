@@ -1,5 +1,5 @@
 # Lantern
-Shed some light onto your center, business, or your personal profile. Lantern is a social network aimed at community centers, business, and event driven institutions.
+Shed some light onto your community center, business, or your personal profile. Lantern is a social network aimed at event driven institutions.
 
 - - - -
 
