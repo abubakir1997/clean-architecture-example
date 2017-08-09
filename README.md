@@ -11,7 +11,7 @@ Please read the [To Do](https://github.com/abubakir1997/Lantern/blob/master/TODO
 
 ## Install NPM ##
 
-Install npm and nodejs from the following site <a href="https://nodejs.org/en/" target="_blank">NodeJS</a> then type in the command line:
+Install npm and nodejs from the following site [NodeJS](https://nodejs.org/en/) then type in the command line:
 ```
 shell:~$ cd path/to/Lantern
 shell:Lantern$  npm install
