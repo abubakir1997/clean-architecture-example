@@ -1,0 +1,10 @@
+/*******************************
+         Site Overrides
+*******************************/
+.ui.steps > .step {
+    cursor: pointer !important;
+}
+
+.steps-content > .step-content:not(.active) {
+    display: none !important;
+}

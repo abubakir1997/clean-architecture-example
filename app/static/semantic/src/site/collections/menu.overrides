@@ -1,0 +1,36 @@
+/*******************************
+         Site Overrides
+*******************************/
+.item-content.active {
+    display: block !important;
+}
+
+.item-content:not(.active) {
+    display: none !important;
+}
+
+.item-content.item {
+	background: 0 0 !important;
+}
+
+.item-content.item:hover {
+	background: rgba(0,0,0,.05) !important;;
+}
+
+.ui.menu .item.circular {
+	border-radius: 10em !important;
+}
+
+.ui.menu .item.button {
+	box-shadow: 0 0 0 0 rgba(34,36,38,.15) inset !important;
+    background-color: #2185D0 !important;
+    color: #FFF !important;
+    cursor: pointer !important;
+    font-weight: 800 !important;
+}
+
+.ui.menu .item.button:hover {
+	background-color: #1678c2 !important;
+	color: #FFF !important;
+	text-shadow: none !important;
+}

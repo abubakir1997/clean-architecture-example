@@ -1,0 +1,80 @@
+/*******************************
+    User Variable Overrides
+*******************************/
+.full.card {
+    box-shadow: 0 1px 3px 0 #D4D4D5, 0 0 0 1px #D4D4D5 !important;
+}
+
+.full.card .content, 
+.full.card .content .header, 
+.full.card .content .description {
+    color: #FAFAFA !important;
+}
+
+.full.card .extra.content, .full.card .meta {
+    color: rgba(255, 255, 255, 0.65) !important;
+}
+
+.full.blue.card, .full.blue.card:hover {
+    background: #0274D8 !important;
+}
+
+.full.green.card, .full.green.card:hover {
+    background: #5CB85C !important;
+}
+
+.full.info.card, .full.info.card:hover {
+    background: #5BC0DE !important;
+}
+
+.full.orange.card, .full.orange.card:hover {
+    background: #F0AD4E !important;
+}
+
+.full.red.card, .full.red.card:hover {
+    background: #D9534F !important;
+}
+
+.full.grey.card, .full.grey.card:hover {
+    background: #9E9E9E !important;
+}
+
+.full.brown.card, .full.brown.card:hover {
+    background: #8D6E63 !important;
+}
+
+.full.pink.card, .full.pink.card:hover {
+    background: #F06292 !important;
+}
+
+.full.purple.card, .full.purple.card:hover {
+    background: #BA68C8 !important;
+}
+
+.full.violet.card, .full.violet.card:hover {
+    background: #6435C9 !important;
+}
+
+.full.teal.card, .full.teal.card:hover {
+    background: #00B5AD !important;
+}
+
+.full.olive.card, .full.olive.card:hover {
+    background: #B5CC18 !important;
+}
+
+.full.yellow.card, .full.yellow.card:hover {
+    background: #FFEB3B !important;
+}
+
+.full.black.card, .full.black.card:hover {
+    background: #424242 !important;
+}
+
+.card .close {
+    position: absolute;
+    top: 0;
+    left: 2px;
+    font-size: 10px;
+    cursor: pointer;
+}

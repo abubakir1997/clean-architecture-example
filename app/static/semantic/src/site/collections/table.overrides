@@ -1,0 +1,18 @@
+/*******************************
+         Site Overrides
+*******************************/
+.ui.table.invoice th:last-child, 
+.ui.table.invoice td:last-child  
+{
+	background-color: #EEEEEE;
+}
+
+tr.hoverable,
+tr.hoverable * {
+	cursor: pointer !important;
+}
+
+tr.hoverable:hover {
+	background: rgba(0, 0, 0, 0.25) !important;
+	color: rgba(0, 0, 0, 0.95) !important
+}

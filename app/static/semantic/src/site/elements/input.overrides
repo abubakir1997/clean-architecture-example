@@ -1,0 +1,88 @@
+/*******************************
+         Site Overrides
+*******************************/
+.ui.input.circular,
+.ui.dropdown.circular,
+.ui.dropdown.active.circular,
+.ui.dropdown.visible.circular,
+.ui.dropdown.circular .label {
+	border-radius: 50px !important;
+}
+
+.ui.dropdown.circular .menu {
+	margin-top: 10px !important;
+	border-radius: 6px !important;
+}
+
+.ui.dropdown.search.one {
+	display: flex !important;
+	flex-flow: row !important;
+	width: 100% !important;
+	padding-right: .35714286em !important;
+	height: 2.7142em !important;
+}
+
+.ui.dropdown.search.one > .label {
+    flex: 0 1 auto !important;
+}
+
+.ui.dropdown.search.one > .search {
+    flex: 1 1 auto !important;
+    overflow-x: auto !important;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+.ui.dropdown.search .menu {
+	width: calc(100% + 2.5px);
+}
+
+.ui.search.expandable input, 
+.ui.input.expandable input {
+    width: 41.13px;
+    height: 41.13px;
+    padding-right: 14px !important;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    background: #ebebeb;
+    transition: all 0.6s, box-shadow 0.3s;
+    -webkit-transition: all 0.6s, box-shadow 0.3s;
+}
+
+.ui.search.expandable input:hover,
+.ui.input.expandable input:hover {
+    box-shadow: 0 0 0 2.5px #3d4752;
+}
+
+.ui.search.expandable input:focus,
+.ui.input.expandable input:focus {
+    transition: 
+        width 0.6s cubic-bezier(0, 1.22, 0.66, 1.39), 
+        border-radius 0.6s, 
+        background 0.6s;
+    -webkit-transition: 
+        width 0.6s cubic-bezier(0, 1.22, 0.66, 1.39), 
+        border-radius 0.6s, 
+        background 0.6s;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    padding-left: 15px;
+    padding-right: 35px !important;
+    /*cursor: text;*/
+    width: 300px;
+    border-radius: auto;
+    background: #ebebeb;
+    color: black;
+}
+
+.ui.search.expandable input:not(:focus),
+.ui.input.expandable input:not(:focus) {
+    text-indent: -5000px;
+}
+
+.ui.search.expandable i.icon,
+.ui.input.expandable i.icon {
+    width: 41.13px !important;
+}

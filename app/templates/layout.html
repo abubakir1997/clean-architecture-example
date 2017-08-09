@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+<head lang="en">
+<title>{% block title %}{% endblock %} - Lantern</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+{% block default_links %}
+<link href="{{url_for('static', filename='scripts/dist/css/main.min.css')}}"
+      rel="stylesheet" 
+      type="text/css">
+{% endblock %}
+{% block links %}{% endblock %}
+</head>
+<body>
+<div class="ui box container">
+  {% block content %}{% endblock %}
+</div>
+{% block default_scripts %}
+<script type="text/javascript" 
+        src="{{url_for('static', filename='scripts/dist/js/main.min.js')}}"
+        defer></script>
+{% endblock %}
+{% block scripts %}{% endblock %}
+</body>
+</html>

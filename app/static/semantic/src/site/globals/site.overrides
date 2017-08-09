@@ -1,0 +1,77 @@
+/*******************************
+         Site Overrides
+*******************************/
+/* Alert */
+
+.ui.alert {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    right: 0;
+    -webkit-animation-delay: 0.1s;
+    -moz-animation-delay: 0.1s;
+    -o-animation-delay: 0.1s;
+    animation-delay: 0.1s;
+}
+
+.ui.alert .message {
+    z-index: 99;
+}
+
+/* Other */
+
+.ui.form .field {
+    line-height: 38px;
+}
+
+.ui.selectable.table tr {
+    cursor: pointer;
+}
+
+.ui.dropdown .menu {
+    z-index: 15;
+}
+
+.ui.menu .selected.item {
+    background-color: rgba(0, 0, 0, 0.0470588) !important;
+}
+
+.ui.menu .hover.item:not(:hover) {
+    background-color: transparent !important;
+}
+
+.ui.accordion .label.center-y {
+    margin-right: 20px;
+}
+
+.ui.compact.selection.dropdown .menu {
+    width: 61.5px !important;
+}
+
+.input-divider {
+    margin-top: 0 !important;
+}
+
+td.basic.left,
+th.basic.left {
+    border-left: 0px !important;
+}
+
+td.basic.bottom,
+th.basic.bottom {
+    border-bottom: 0px !important;
+}
+
+td.basic.top,
+th.basic.top {
+    border-top: 0px !important;
+}
+
+td.basic.right,
+th.basic.right {
+    border-right: 0px !important;
+}
+
+.ui.dim {
+    color: rgba(0,0,0,.4) !important;
+}

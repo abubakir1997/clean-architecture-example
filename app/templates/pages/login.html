@@ -1,0 +1,29 @@
+{% extends 'layout.html' %}
+{% block title %}Login{% endblock %}
+{% block content %}
+<div class="ui middle aligned center aligned box grid">
+	<div class="row">
+		<div class="six wide computer sixteen wide mobile column">
+			<div class="ui very padded segment">
+				<div class="ui huge header">
+					<span>Lantern</span>
+					<div class="ui divider"></div>
+					<span class="sub header">Please Enter Login Credentials</span>
+				</div>
+				<div class="ui hidden divider"></div>
+				<form action="{{ this.action }}" class="ui form">
+					<div class="field">
+						<input type="text" class="ui input" name="username" placeholder="Username">
+					</div>
+					<div class="field">
+						<input type="text" class="ui input" name="password" placeholder="Password">
+					</div>
+					<div class="field">
+						<input type="submit" class="ui fluid blue button">
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</div>
+{% endblock %}

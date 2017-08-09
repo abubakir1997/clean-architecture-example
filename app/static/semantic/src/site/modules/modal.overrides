@@ -1,0 +1,20 @@
+/*******************************
+         Site Overrides
+*******************************/
+.ui.modal .rails {
+	position: relative;
+	width: inherit;
+}
+
+.ui.modal .rail {
+	position: absolute;
+	top: 50vh;
+}
+
+.ui.modal .right.rail {
+	right: -70px;
+}
+
+.ui.modal .left.rail {
+	left: -70px;
+}
