@@ -17,7 +17,7 @@ shell:~$ cd path/to/Lantern
 shell:Lantern$  npm install
 ```
 
-## Built Application ##
+## Build Application ##
 
 Run:
 
