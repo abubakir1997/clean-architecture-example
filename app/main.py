@@ -18,7 +18,9 @@ from config import Config
 
 CONFIG = Config()
 
-app = Flask(__name__)
+app = Flask(__name__, 
+	static_folder = '../{}'.format(CONFIG.ACTIVE.STATIC), 
+	template_folder = '../templates')
 
 app.url_map.strict_slashes = False
 app.secret_key = '*\x16\xfe\xe2W\x16F\x84\x04\x01\xa3\x0b\x9a\xc8q\xc1\x8f\x00\x0fT\x04b\xea\x97'

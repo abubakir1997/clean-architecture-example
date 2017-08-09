@@ -25,6 +25,7 @@ class Config():
         HOST = 'localhost'
         PORT = 8885
         DEBUG = False
+        STATIC = 'static'
         MYSQL_CONNSTR = 'mysql://root:root@ah@localhost/Lantern'
 
     class Testing(Production):
