@@ -1,6 +1,8 @@
 # Lantern
 Shed some light onto your center, business, or your personal profile. Lantern is a social network aimed at community centers, business, and event driven institutions.
 
+- - - -
+
 # Help
 
 ## To Do ##
@@ -11,8 +13,8 @@ Please read the [To Do](https://github.com/abubakir1997/Lantern/blob/master/TODO
 
 Install npm and nodejs from the following site [NodeJS](https://nodejs.org/en/) then type in the command line:
 ```
-**shell:~$** cd path/to/Lantern
-**shell:Lantern$**  npm install
+shell:~$ cd path/to/Lantern
+shell:Lantern$  npm install
 ```
 
 ## Built Application ##
@@ -20,7 +22,7 @@ Install npm and nodejs from the following site [NodeJS](https://nodejs.org/en/) 
 Run:
 
 ```
-**shell:Lantern$** npm run build
+shell:Lantern$ npm run build
 ```
 
 
@@ -29,13 +31,13 @@ Run:
 You can start the application in three different configurations (Production, Test, and Development) choose one of the following:
 
 ```
-**shell:Lantern$** npm run prod
+shell:Lantern$ npm run prod
 ```
 ```
-**shell:Lantern$** npm run test
+shell:Lantern$ npm run test
 ```
 ```
-**shell:Lantern$** npm run dev
+shell:Lantern$ npm run dev
 ```
 
 **Note:** A page will open in your browser with an error message, **just refresh the page.**
@@ -44,6 +46,8 @@ You can start the application in three different configurations (Production, Tes
 - [Learn X (Python) in Y Minutes](https://learnxinyminutes.com/docs/python/)
 - [Learn X (Git) in Y Minutes](https://learnxinyminutes.com/docs/git/)
 - [Clean Architecture Exaplined](https://subvisual.co/blog/posts/20-clean-architecture/)
+
+- - - -
 
 # Clean Architecture Example
 - Components:
