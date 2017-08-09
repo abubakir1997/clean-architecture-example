@@ -1,7 +1,7 @@
 # Lantern
 Shed some light onto your community center, business, or your personal profile. Lantern is a social network aimed at event driven institutions.
 
-- - - -
+> We have certainly sent down distinct verses. And Allah guides whom He wills to a straight path.
 
 # Help
 
